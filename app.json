@@ -1,6 +1,6 @@
 {
   "expo": {
-   "name": "Donation App",
+    "name": "Donation App",
     "slug": "donation-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,19 +16,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.donationapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins":[
+    "plugins": [
       "@react-native-firebase/app",
       "@react-native-firebase/auth",
       "@react-native-firebase/crashlytics"
     ]
-
   }
 }
